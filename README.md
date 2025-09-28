@@ -2,16 +2,22 @@
 
 > MSc Candidate in Building Performance & Sustainability | Focused on Sustainable Buildings, Building Energy Modeling, and Machine Learning
 
-
 <br>
 <br>
 
+![My_Photo](https://github.com/user-attachments/assets/faef4a12-da2a-4066-a3c3-cfa7339e03a2)
+
+<br>
+<br>
 
 ## 🧑‍🔬 About Me
 Y
 My passion lies at the intersection of the built environment and sustainability. My academic and professional journey has consistently revolved around this core theme, spanning projects from low-carbon concrete, CCUS, and carbon emission calculation during my undergraduate studies to my current postgraduate specialization in Building Performance and Sustainability. I am currently a Research Assistant at the **City Syntax Lab**, where I am actively involved in the development of an **Urban Building Energy Modeling (UBEM)** platform for Singapore.
 
----
+
+<br>
+<br>
+
 
 ## 🎓 Education
 
@@ -40,10 +46,8 @@ My passion lies at the intersection of the built environment and sustainability.
 **Languages:**
 **Chinese** (Native), **English** (Professional Proficiency)
 
-
 <br>
 <br>
-
 
 ## 📂 Featured Projects
 
@@ -83,10 +87,8 @@ My passion lies at the intersection of the built environment and sustainability.
   - Conducted consumer research, macro-micro environmental analysis, and competitive property analysis.
   - Utilized SWOT analysis to inform project positioning and preliminary planning.
 
-
 <br>
 <br>
-
 
 ## 📫 Let's Connect!
 
@@ -95,15 +97,13 @@ My passion lies at the intersection of the built environment and sustainability.
 - **GitHub:** [@Speeqw](https://github.com/Speeqw)
 - **ORCID:** [0009-0002-8953-0819](https://orcid.org/0009-0002-8953-0819)
 
-
 <br>
 <br>
-
 
 ## 💫 A Little More About Me
 
 **Fun Facts:**
-- 🕺💃 I love dancing and practicing yoga in my free time. I'm also an avid fan of TV series!
+- 💃 I love dancing and practicing yoga in my free time. I'm also an avid fan of TV series!
 - 🏃‍♂️ I enjoy trying out a wide variety of sports.
 - 😴 I firmly believe in the power of rest and aim for over 9 hours of sleep each night.
 
