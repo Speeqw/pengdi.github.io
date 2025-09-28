@@ -1,0 +1,405 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pengdi LYu</title>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@700&family=Corbel&display=swap"
+        rel="stylesheet">
+    <style>
+        /* 基础样式 */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Corbel', sans-serif;
+            font-size: 14px;
+            line-height: 1.6;
+            color: #333;
+            background-color: #fff;
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 0 20px;
+        }
+
+        h1 {
+            font-family: 'Montserrat', sans-serif;
+            font-weight: 600;
+            font-size: 20px;
+            margin: 20px;
+        }
+
+        h2,
+        h3 {
+            font-family: 'Montserrat', sans-serif;
+            font-weight: 600;
+            font-size: 16px;
+            margin-bottom: 15px;
+        }
+
+        h4,
+        h5,
+        h6 {
+            font-family: 'Corbel', sans-serif;
+            font-weight: 600;
+            font-size: 14px;
+        }
+
+        p {
+            margin-bottom: 15px;
+        }
+
+        a {
+            color: #333;
+            text-decoration: none;
+            border-bottom: 1px solid #ccc;
+            transition: border-color 0.3s;
+        }
+
+        a:hover {
+            border-color: #333;
+        }
+
+        /* 布局样式 */
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 40px 0;
+        }
+
+        header {
+            text-align: center;
+            margin-bottom: 40px;
+            padding-bottom: 30px;
+            border-bottom: 1px solid #eee;
+        }
+
+        .profile-img {
+            width: 180px;
+            height: 180px;
+            border-radius: 50%;
+            object-fit: cover;
+            margin: 30px auto;
+            display: block;
+            border: 1px solid #eee;
+        }
+
+        section {
+            margin-bottom: 40px;
+        }
+
+        .tag {
+            display: inline-block;
+            background-color: #f5f5f5;
+            padding: 3px 8px;
+            margin: 0 5px 5px 0;
+            border-radius: 3px;
+            font-family: 'Corbel', sans-serif;
+            font-size: 14px;
+        }
+
+        .skills-category {
+            margin-bottom: 20px;
+            display: flex;
+            align-items: baseline;
+        }
+
+        .skills-category h4 {
+            min-width: 180px;
+            margin-right: 15px;
+            margin-bottom: 0;
+        }
+
+        .skills-category .tags-container {
+            flex: 1;
+        }
+
+        .project {
+            margin-bottom: 30px;
+            padding-bottom: 20px;
+            border-bottom: 1px solid #eee;
+        }
+
+        .project:last-child {
+            border-bottom: none;
+        }
+
+        .project-title {
+            display: flex;
+            justify-content: space-between;
+            align-items: baseline;
+            margin-bottom: 10px;
+        }
+
+        .project-title h3 {
+            font-family: 'Montserrat', sans-serif;
+            font-size: 14px;
+            font-weight: 600;
+            margin-bottom: 0;
+        }
+
+        .project-year {
+            font-family: 'Corbel', sans-serif;
+            font-size: 14px;
+            color: #666;
+        }
+
+        .contact-links {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 15px;
+            margin-top: 10px;
+        }
+
+        /* 响应式设计 */
+        @media (min-width: 768px) {
+            body {
+                padding: 0 40px;
+            }
+
+            .container {
+                padding: 60px 0;
+            }
+
+            header {
+                margin-bottom: 60px;
+            }
+
+            section {
+                margin-bottom: 60px;
+            }
+        }
+
+        @media (max-width: 768px) {
+            .skills-category {
+                flex-direction: column;
+                align-items: flex-start;
+            }
+
+            .skills-category h4 {
+                min-width: auto;
+                margin-bottom: 10px;
+            }
+        }
+
+        @media (max-width: 480px) {
+            body {
+                padding: 0 15px;
+            }
+
+            .profile-img {
+                width: 150px;
+                height: 150px;
+            }
+
+            .project-title {
+                flex-direction: column;
+            }
+
+            .contact-links {
+                flex-direction: column;
+                gap: 10px;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <header>
+            <h1>Hello, I'm Pengdi LYu 👋</h1>
+            <p>Focused on Sustainable Buildings, Building Energy Modeling, and Machine Learning</p>
+            <img src="https://github.com/user-attachments/assets/faef4a12-da2a-4066-a3c3-cfa7339e03a2" alt="Pengdi LYu"
+                class="profile-img">
+        </header>
+
+        <section id="about">
+            <h2>🧑‍🔬 About Me</h2>
+            <p>My passion lies at the intersection of the built environment and sustainability. My academic and
+                professional journey has consistently revolved around this core theme, spanning projects from low-carbon
+                concrete, CCUS, and carbon emission calculation during my undergraduate studies to my current
+                postgraduate specialization in Building Performance and Sustainability. I am currently a Research
+                Assistant at the <strong>City Syntax Lab</strong>, where I am actively involved in the development of an
+                <strong>Urban Building Energy Modeling (UBEM)</strong> platform for Singapore.
+            </p>
+        </section>
+
+        <section id="education">
+            <h2>🎓 Education</h2>
+            <p><strong>2025</strong> - <strong>MSc in Building Performance and Sustainability</strong>, National
+                University of Singapore</p>
+            <p><strong>2024</strong> - <strong>BEng in Construction Management</strong>, Southeast University</p>
+        </section>
+
+        <section id="skills">
+            <h2>🛠️ Tech Stack & Skills</h2>
+
+            <div class="skills-category">
+                <h4>Simulation & BIM:</h4>
+                <div class="tags-container">
+                    <span class="tag">DesignBuilder</span>
+                    <span class="tag">Revit</span>
+                    <span class="tag">Tekla</span>
+                    <span class="tag">ContextCapture</span>
+                    <span class="tag">AutoCAD</span>
+                    <span class="tag">Fluent (CFD)</span>
+                </div>
+            </div>
+
+            <div class="skills-category">
+                <h4>Programming & Data Analysis:</h4>
+                <div class="tags-container">
+                    <span class="tag">Python</span>
+                    <span class="tag">Matlab</span>
+                    <span class="tag">HTML5</span>
+                    <span class="tag">CSS3</span>
+                    <span class="tag">JavaScript</span>
+                    <span class="tag">OriginPro</span>
+                </div>
+            </div>
+
+            <div class="skills-category">
+                <h4>Productivity & Design:</h4>
+                <div class="tags-container">
+                    <span class="tag">Microsoft Office / WPS</span>
+                    <span class="tag">Adobe Photoshop (PS)</span>
+                    <span class="tag">Adobe Illustrator (AI)</span>
+                    <span class="tag">Adobe Premiere (PR)</span>
+                </div>
+            </div>
+
+            <div class="skills-category">
+                <h4>Professional Competencies:</h4>
+                <div class="tags-container">
+                    <span class="tag">LEED Green Associate</span>
+                    <span class="tag">Building Energy Modeling (BEM/UBEM)</span>
+                    <span class="tag">Data Analysis & Visualization</span>
+                    <span class="tag">Project Management</span>
+                    <span class="tag">Academic Writing</span>
+                    <span class="tag">Teamwork</span>
+                </div>
+            </div>
+
+            <div class="skills-category">
+                <h4>Languages:</h4>
+                <div class="tags-container">
+                    <span class="tag">Chinese (Native)</span>
+                    <span class="tag">English</span>
+                </div>
+            </div>
+        </section>
+
+        <section id="projects">
+            <h2>📂 Featured Projects</h2>
+
+            <div class="project">
+                <div class="project-title">
+                    <h3><a href="http://buildings.sg/">Buildings.sg: Open Carbon Mapping Platform for Singapore</a></h3>
+                    <span class="project-year">Latest, 2025</span>
+                </div>
+                <p>An open platform for visualizing embodied and operational carbon data for Urban Building Energy
+                    Modeling (UBEM) in Singapore.</p>
+                <ul>
+                    <li>Developed an UBEM platform hosting data for over 100,000 buildings in Singapore.</li>
+                    <li>Created 23 EnergyPlus models for Singapore building archetypes through extensive architectural
+                        research, featuring detailed zoning.</li>
+                </ul>
+            </div>
+
+            <div class="project">
+                <div class="project-title">
+                    <h3>Digital Twin for a Smart Low-Carbon Campus</h3>
+                    <span class="project-year">2022, National Competition Grand Prize 1st Place</span>
+                </div>
+                <p>A digital twin platform for a smart, low-carbon campus.</p>
+                <ul>
+                    <li>Development of a City Information Modeling (CIM) platform.</li>
+                    <li>Built a digital twin for visualizing carbon emissions across a 240-hectare campus.</li>
+                    <li>Implemented real-time data management capabilities.</li>
+                </ul>
+            </div>
+
+            <div class="project">
+                <div class="project-title">
+                    <h3>Rising Greens: Green Building Integration and Evaluation Studio</h3>
+                    <span class="project-year">2025</span>
+                </div>
+                <p>An academic studio project focused on the integration and lifecycle evaluation of green building
+                    technologies.</p>
+                <ul>
+                    <li>Developed a mixed-use district proposal for a vacant plot in Singapore, comprising educational,
+                        commercial, and business park uses.</li>
+                    <li>Performed energy simulation modeling in DesignBuilder to support green design integration.</li>
+                    <li>Optimized active and passive systems, reducing energy consumption to meet Singapore Green Mark
+                        Platinum standards.</li>
+                </ul>
+            </div>
+
+            <div class="project">
+                <div class="project-title">
+                    <h3>Developing LiFePO4 Battery Waste as Cement Substitutes</h3>
+                    <span class="project-year">2024</span>
+                </div>
+                <p>Research on sustainable material solutions by repurposing industrial waste.</p>
+                <ul>
+                    <li>Objective: To reduce the environmental impact of concrete and provide an alternative for
+                        recycling waste batteries.</li>
+                    <li>Verified the chemical reactions between LiFePO4 battery waste (FPW) and cement hydrates (CH).
+                    </li>
+                    <li>Tested and analyzed the chemical and physical properties of concrete incorporated with varying
+                        proportions of FPW.</li>
+                    <li>Proposed a viable pathway for sustainable waste management in the construction industry.</li>
+                </ul>
+            </div>
+
+            <div class="project">
+                <div class="project-title">
+                    <h3>Positioning Strategy for Nanjing Plot 2023G53 in an Aging Society</h3>
+                    <span class="project-year">2024</span>
+                </div>
+                <p>A real estate development proposal addressing demographic shifts.</p>
+                <ul>
+                    <li>Concept: Proposed a novel age-friendly real estate model based on Continuing Care Retirement
+                        Community (CCRC) and multi-generational co-living principles.</li>
+                    <li>Conducted consumer research, macro-micro environmental analysis, and competitive property
+                        analysis.</li>
+                    <li>Utilized SWOT analysis to inform project positioning and preliminary planning.</li>
+                </ul>
+            </div>
+        </section>
+
+        <section id="contact">
+            <h2>📫 Let's Connect!</h2>
+            <div class="contact-links">
+                <a href="mailto:pengdilyu@gmail.com">Email: pengdilyu@gmail.com</a>
+                <a href="https://www.linkedin.com/in/pengdi-lyu/">LinkedIn: Pengdi Lyu</a>
+                <a href="https://github.com/Speeqw">GitHub: @Speeqw</a>
+                <a href="https://orcid.org/0009-0002-8953-0819">ORCID: 0009-0002-8953-0819</a>
+            </div>
+        </section>
+
+        <section id="more">
+            <h2>💫 A Little More About Me</h2>
+            <p><strong>Fun Facts:</strong></p>
+            <ul>
+                <li>💃 I love dancing and practicing yoga in my free time. I'm also an avid fan of TV series!</li>
+                <li>🏃‍♂️ I enjoy trying out a wide variety of sports.</li>
+                <li>😴 I get over 9 hours of sleep per day!</li>
+            </ul><br>
+            <p><strong>Latest:</strong></p>
+            <p>I'm currently deepening my skills in <strong>Python</strong> and navigating the challenging but exciting
+                journey of <strong>PhD applications</strong>.</p>
+            <br>
+        </section>
+
+        <div style="text-align: center; margin-top: 40px;">
+            <p style="font-size: 12px; color: #999;">© 2025 Pengdi LYu</p>
+        </div>
+    </div>
+</body>
+
+</html>
