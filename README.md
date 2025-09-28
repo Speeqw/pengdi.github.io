@@ -24,6 +24,7 @@ My passion lies at the intersection of the built environment and sustainability.
 ## 🎓 Education
 
 **2025** - **MSc in Building Performance and Sustainability**, National University of Singapore
+<br>
 **2024** - **BEng in Construction Management**, Southeast University
 
 
@@ -55,9 +56,8 @@ My passion lies at the intersection of the built environment and sustainability.
 
 ### [Buildings.sg: Open Carbon Mapping Platform for Singapore](http://buildings.sg/)
 *(Latest, 2025)* - An open platform for visualizing embodied and operational carbon data for Urban Building Energy Modeling (UBEM) in Singapore.
-- **Key Achievements:**
-  - Developed an UBEM platform hosting data for over 100,000 buildings in Singapore.
-  - Created 23 EnergyPlus models for Singapore building archetypes through extensive architectural research, featuring detailed zoning.
+- Developed an UBEM platform hosting data for over 100,000 buildings in Singapore.
+- Created 23 EnergyPlus models for Singapore building archetypes through extensive architectural research, featuring detailed zoning.
 
 ### Digital Twin for a Smart Low-Carbon Campus
 *(2022, National Competition Grand Prize 1st Place)* - A digital twin platform for a smart, low-carbon campus.
