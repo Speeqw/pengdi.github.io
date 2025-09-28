@@ -11,7 +11,7 @@
 <br>
 
 ## 🧑‍🔬 About Me
-Y
+
 My passion lies at the intersection of the built environment and sustainability. My academic and professional journey has consistently revolved around this core theme, spanning projects from low-carbon concrete, CCUS, and carbon emission calculation during my undergraduate studies to my current postgraduate specialization in Building Performance and Sustainability. I am currently a Research Assistant at the **City Syntax Lab**, where I am actively involved in the development of an **Urban Building Energy Modeling (UBEM)** platform for Singapore.
 
 
