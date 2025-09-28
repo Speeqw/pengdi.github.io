@@ -23,8 +23,8 @@ My passion lies at the intersection of the built environment and sustainability.
 
 ## 🎓 Education
 
-- **2025** - **MSc in Building Performance and Sustainability**, National University of Singapore
-- **2024** - **BEng in Construction Management**, Southeast University
+**2025** - **MSc in Building Performance and Sustainability**, National University of Singapore
+**2024** - **BEng in Construction Management**, Southeast University
 
 
 <br>
@@ -61,32 +61,28 @@ My passion lies at the intersection of the built environment and sustainability.
 
 ### Digital Twin for a Smart Low-Carbon Campus
 *(2022, National Competition Grand Prize 1st Place)* - A digital twin platform for a smart, low-carbon campus.
-- **Focus:** Development of a City Information Modeling (CIM) platform.
-- **Key Achievements:**
-  - Built a digital twin for visualizing carbon emissions across a 240-hectare campus.
-  - Implemented real-time data management capabilities.
+- Development of a City Information Modeling (CIM) platform.
+- Built a digital twin for visualizing carbon emissions across a 240-hectare campus.
+- Implemented real-time data management capabilities.
 
 ### Rising Greens: Green Building Integration and Evaluation Studio
 *(2025)* - An academic studio project focused on the integration and lifecycle evaluation of green building technologies.
-- **Scope:** Developed a mixed-use district proposal for a vacant plot in Singapore, comprising educational, commercial, and business park uses.
-- **Key Contributions:**
-  - Performed energy simulation modeling in DesignBuilder to support green design integration.
-  - Optimized active and passive systems, reducing energy consumption to meet Singapore Green Mark Platinum standards.
+- Developed a mixed-use district proposal for a vacant plot in Singapore, comprising educational, commercial, and business park uses.
+- Performed energy simulation modeling in DesignBuilder to support green design integration.
+- Optimized active and passive systems, reducing energy consumption to meet Singapore Green Mark Platinum standards.
 
 ### Developing LiFePO4 Battery Waste as Cement Substitutes
 *(2024)* - Research on sustainable material solutions by repurposing industrial waste.
-- **Objective:** To reduce the environmental impact of concrete and provide an alternative for recycling waste batteries.
-- **Key Findings:**
-  - Verified the chemical reactions between LiFePO4 battery waste (FPW) and cement hydrates (CH).
-  - Tested and analyzed the chemical and physical properties of concrete incorporated with varying proportions of FPW.
-  - Proposed a viable pathway for sustainable waste management in the construction industry.
+- Objective: To reduce the environmental impact of concrete and provide an alternative for recycling waste batteries.
+- Verified the chemical reactions between LiFePO4 battery waste (FPW) and cement hydrates (CH).
+- Tested and analyzed the chemical and physical properties of concrete incorporated with varying proportions of FPW.
+- Proposed a viable pathway for sustainable waste management in the construction industry.
 
 ### Positioning Strategy for Nanjing Plot 2023G53 in an Aging Society
 *(2024)* - A real estate development proposal addressing demographic shifts.
-- **Concept:** Proposed a novel age-friendly real estate model based on Continuing Care Retirement Community (CCRC) and multi-generational co-living principles.
-- **Methodology:**
-  - Conducted consumer research, macro-micro environmental analysis, and competitive property analysis.
-  - Utilized SWOT analysis to inform project positioning and preliminary planning.
+- Concept: Proposed a novel age-friendly real estate model based on Continuing Care Retirement Community (CCRC) and multi-generational co-living principles.
+- Conducted consumer research, macro-micro environmental analysis, and competitive property analysis.
+- Utilized SWOT analysis to inform project positioning and preliminary planning.
 
 <br>
 <br>
@@ -106,7 +102,7 @@ My passion lies at the intersection of the built environment and sustainability.
 **Fun Facts:**
 - 💃 I love dancing and practicing yoga in my free time. I'm also an avid fan of TV series!
 - 🏃‍♂️ I enjoy trying out a wide variety of sports.
-- 😴 I firmly believe in the power of rest and aim for over 9 hours of sleep each night.
+- 😴 I get over 9 hours of sleep per day!
 
 **Latest Update:**
 I'm currently deepening my skills in **Python** and navigating the challenging but exciting journey of **PhD applications**.
