@@ -5,7 +5,9 @@
 <br>
 <br>
 
-![My_Photo](https://github.com/user-attachments/assets/faef4a12-da2a-4066-a3c3-cfa7339e03a2)
+<div align="center">
+  <img src="https://github.com/user-attachments/assets/faef4a12-da2a-4066-a3c3-cfa7339e03a2" alt="Pengdi Lyu" style="width: 120px; height: 120px; object-fit: cover; border-radius: 50%; border: 3px solid #f0f0f0;"/>
+</div>
 
 <br>
 <br>
