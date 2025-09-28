@@ -1,12 +1,12 @@
 # Hello, I'm Pengdi LYu 👋
 
-> MSc Candidate in Building Performance & Sustainability | Focused on Sustainable Buildings, Building Energy Modeling, and Machine Learning
+> Focused on Sustainable Buildings, Building Energy Modeling, and Machine Learning
 
 <br>
 <br>
 
 <div align="center">
-  <img src="https://github.com/user-attachments/assets/faef4a12-da2a-4066-a3c3-cfa7339e03a2" alt="Pengdi Lyu" style="width: 120px; height: 120px; object-fit: cover; border-radius: 50%; border: 3px solid #f0f0f0;"/>
+  <img src="https://github.com/user-attachments/assets/faef4a12-da2a-4066-a3c3-cfa7339e03a2" alt="Pengdi LYu" style="width: 150px; height: 150px; object-fit: cover; border-radius: 50%;"/>
 </div>
 
 <br>
@@ -110,7 +110,10 @@ My passion lies at the intersection of the built environment and sustainability.
 - 😴 I firmly believe in the power of rest and aim for over 9 hours of sleep each night.
 
 **Latest Update:**
-I'm currently deepening my skills in **Python** and navigating the challenging but exciting journey of **PhD applications**. (Remember to protect your eyesight! 👁️)
+I'm currently deepening my skills in **Python** and navigating the challenging but exciting journey of **PhD applications**.
+
+<br>
+<br>
 
 
 
