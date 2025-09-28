@@ -6,7 +6,7 @@
 <br>
 
 <div align="center">
-  <img src="https://github.com/user-attachments/assets/faef4a12-da2a-4066-a3c3-cfa7339e03a2" alt="Pengdi LYu" style="width: 150px; height: 150px; object-fit: cover; border-radius: 50%;"/>
+  <img src="https://github.com/user-attachments/assets/faef4a12-da2a-4066-a3c3-cfa7339e03a2" alt="Pengdi LYu" style="width: 200px; height: 200px; object-fit: cover; border-radius: 50%;"/>
 </div>
 
 <br>
@@ -55,7 +55,6 @@ My passion lies at the intersection of the built environment and sustainability.
 
 ### [Buildings.sg: Open Carbon Mapping Platform for Singapore](http://buildings.sg/)
 *(Latest, 2025)* - An open platform for visualizing embodied and operational carbon data for Urban Building Energy Modeling (UBEM) in Singapore.
-- [**View on GitHub**](https://github.com/City-Syntax/buildings.sg) | [**Live Platform**](http://buildings.sg/)
 - **Key Achievements:**
   - Developed an UBEM platform hosting data for over 100,000 buildings in Singapore.
   - Created 23 EnergyPlus models for Singapore building archetypes through extensive architectural research, featuring detailed zoning.
