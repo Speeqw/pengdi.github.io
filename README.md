@@ -1,11 +1,14 @@
-# Hello, I'm Pengdi Lyu 👋
+# Hello, I'm Pengdi LYu 👋
 
 > MSc Candidate in Building Performance & Sustainability | Focused on Sustainable Buildings, Building Energy Modeling, and Machine Learning
 
----
+
+<br>
+<br>
+
 
 ## 🧑‍🔬 About Me
-
+Y
 My passion lies at the intersection of the built environment and sustainability. My academic and professional journey has consistently revolved around this core theme, spanning projects from low-carbon concrete, CCUS, and carbon emission calculation during my undergraduate studies to my current postgraduate specialization in Building Performance and Sustainability. I am currently a Research Assistant at the **City Syntax Lab**, where I am actively involved in the development of an **Urban Building Energy Modeling (UBEM)** platform for Singapore.
 
 ---
@@ -15,7 +18,10 @@ My passion lies at the intersection of the built environment and sustainability.
 - **2025** - **MSc in Building Performance and Sustainability**, National University of Singapore
 - **2024** - **BEng in Construction Management**, Southeast University
 
----
+
+<br>
+<br>
+
 
 ## 🛠️ Tech Stack & Skills
 
@@ -34,7 +40,10 @@ My passion lies at the intersection of the built environment and sustainability.
 **Languages:**
 **Chinese** (Native), **English** (Professional Proficiency)
 
----
+
+<br>
+<br>
+
 
 ## 📂 Featured Projects
 
@@ -74,13 +83,22 @@ My passion lies at the intersection of the built environment and sustainability.
   - Conducted consumer research, macro-micro environmental analysis, and competitive property analysis.
   - Utilized SWOT analysis to inform project positioning and preliminary planning.
 
----
+
+<br>
+<br>
+
 
 ## 📫 Let's Connect!
 
-<kbd>[<img src="https://img.icons8.com/color/32/000000/gmail.png" alt="Email" height="16"> Email](mailto:pengdilyu@gmail.com)</kbd> <kbd>[<img src="https://img.icons8.com/color/32/000000/linkedin.png" alt="LinkedIn" height="16"> LinkedIn](https://www.linkedin.com/in/pengdi-lyu/)</kbd> <kbd>[<img src="https://img.icons8.com/color/32/000000/github.png" alt="GitHub" height="16"> GitHub](https://github.com/Speeqw)</kbd> <kbd>[<img src="https://img.icons8.com/color/32/000000/orcid.png" alt="ORCID" height="16"> ORCID](https://orcid.org/0009-0002-8953-0819)</kbd>
+- **Email:** [pengdilyu@gmail.com](mailto:pengdilyu@gmail.com)
+- **LinkedIn:** [Pengdi Lyu](https://www.linkedin.com/in/pengdi-lyu/)
+- **GitHub:** [@Speeqw](https://github.com/Speeqw)
+- **ORCID:** [0009-0002-8953-0819](https://orcid.org/0009-0002-8953-0819)
 
----
+
+<br>
+<br>
+
 
 ## 💫 A Little More About Me
 
