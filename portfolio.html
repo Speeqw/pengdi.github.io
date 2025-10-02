@@ -1,0 +1,318 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio - LYU</title>
+    <link href="https://fonts.googleapis.com/css2?family=Corbel:wght@300;400;600&display=swap" rel="stylesheet">
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            background: #f8f9fa;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+            font-family: 'Corbel', sans-serif;
+            padding: 40px 20px;
+            overflow: hidden;
+        }
+
+        .portfolio-container {
+            text-align: center;
+        }
+
+        .portfolio-title {
+            color: #333;
+            font-size: 2.5em;
+            font-weight: 300;
+            margin-bottom: 30px;
+            letter-spacing: 2px;
+        }
+
+        #flipbook {
+            width: 1000px;
+            height: 707px;
+            box-shadow: 0 8px 40px rgba(0, 0, 0, 0.12);
+            border-radius: 10px;
+            background: white;
+            position: relative;
+        }
+
+        .page {
+            background: white;
+            border-radius: 10px 10px 10px 10px;
+            overflow: hidden;
+        }
+
+        .page img {
+            width: 100%;
+            height: 100%;
+            display: block;
+            border-radius: 10px 10px 10px 10px;
+        }
+
+        .status {
+            color: #666;
+            text-align: center;
+            margin-top: 25px;
+            font-size: 14px;
+            font-family: 'Corbel', sans-serif;
+            letter-spacing: 0.5px;
+        }
+
+        .controls {
+            margin-top: 20px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            gap: 15px;
+        }
+
+        .controls button {
+            background: rgba(51, 51, 51, 0.9);
+            border: none;
+            color: white;
+            padding: 10px 20px;
+            border-radius: 20px;
+            cursor: pointer;
+            font-size: 13px;
+            font-family: 'Corbel', sans-serif;
+            font-weight: 400;
+            letter-spacing: 0.5px;
+            transition: all 0.3s ease;
+        }
+
+        .controls button:hover {
+            background: #333;
+            transform: translateY(-1px);
+        }
+
+        .page-info {
+            color: #666;
+            font-size: 13px;
+            font-family: 'Corbel', sans-serif;
+            background: rgba(255, 255, 255, 0.9);
+            padding: 6px 15px;
+            border-radius: 15px;
+            backdrop-filter: blur(10px);
+        }
+
+        .loading-overlay {
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background: #f8f9fa;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            z-index: 1000;
+            font-family: 'Corbel', sans-serif;
+        }
+
+        .loading-text {
+            color: #333;
+            font-size: 16px;
+            margin-top: 20px;
+        }
+
+        .loading-bar {
+            width: 300px;
+            height: 3px;
+            background: #e0e0e0;
+            border-radius: 2px;
+            margin-top: 10px;
+            overflow: hidden;
+        }
+
+        .loading-progress {
+            height: 100%;
+            background: #333;
+            width: 0%;
+            transition: width 0.3s ease;
+        }
+
+        /* 隐藏加载完成的元素 */
+        .loaded #flipbook {
+            opacity: 1;
+        }
+
+        #flipbook {
+            opacity: 0;
+            transition: opacity 0.5s ease;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="loading-overlay" id="loadingOverlay">
+        <div class="loading-text">Loading Portfolio...</div>
+        <div class="loading-bar">
+            <div class="loading-progress" id="loadingProgress"></div>
+        </div>
+        <div class="loading-text" id="loadingPercent">0%</div>
+    </div>
+
+    <div class="portfolio-container">
+        <div id="flipbook">
+            <div class="page"><img src="pages/Portfolio_LYU_final_copy_01.jpg" alt="Page 1"></div>
+            <div class="page"><img src="pages/Portfolio_LYU_final_copy_02.jpg" alt="Page 2"></div>
+            <div class="page"><img src="pages/Portfolio_LYU_final_copy_03.jpg" alt="Page 3"></div>
+            <div class="page"><img src="pages/Portfolio_LYU_final_copy_04.jpg" alt="Page 4"></div>
+            <div class="page"><img src="pages/Portfolio_LYU_final_copy_05.jpg" alt="Page 5"></div>
+            <div class="page"><img src="pages/Portfolio_LYU_final_copy_06.jpg" alt="Page 6"></div>
+            <div class="page"><img src="pages/Portfolio_LYU_final_copy_07.jpg" alt="Page 7"></div>
+            <div class="page"><img src="pages/Portfolio_LYU_final_copy_08.jpg" alt="Page 8"></div>
+            <div class="page"><img src="pages/Portfolio_LYU_final_copy_09.jpg" alt="Page 9"></div>
+            <div class="page"><img src="pages/Portfolio_LYU_final_copy_10.jpg" alt="Page 10"></div>
+            <div class="page"><img src="pages/Portfolio_LYU_final_copy_11.jpg" alt="Page 11"></div>
+            <div class="page"><img src="pages/Portfolio_LYU_final_copy_12.jpg" alt="Page 12"></div>
+            <div class="page"><img src="pages/Portfolio_LYU_final_copy_13.jpg" alt="Page 13"></div>
+            <div class="page"><img src="pages/Portfolio_LYU_final_copy_14.jpg" alt="Page 14"></div>
+            <div class="page"><img src="pages/Portfolio_LYU_final_copy_15.jpg" alt="Page 15"></div>
+            <div class="page"><img src="pages/Portfolio_LYU_final_copy_16.jpg" alt="Page 16"></div>
+            <div class="page"><img src="pages/Portfolio_LYU_final_copy_17.jpg" alt="Page 17"></div>
+            <div class="page"><img src="pages/Portfolio_LYU_final_copy_18.jpg" alt="Page 18"></div>
+            <div class="page"><img src="pages/Portfolio_LYU_final_copy_19.jpg" alt="Page 19"></div>
+            <div class="page"><img src="pages/Portfolio_LYU_final_copy_20.jpg" alt="Page 20"></div>
+            <div class="page"><img src="pages/Portfolio_LYU_final_copy_21.jpg" alt="Page 21"></div>
+            <div class="page"><img src="pages/Portfolio_LYU_final_copy_22.jpg" alt="Page 22"></div>
+            <div class="page"><img src="pages/Portfolio_LYU_final_copy_23.jpg" alt="Page 23"></div>
+            <div class="page"><img src="pages/Portfolio_LYU_final_copy_24.jpg" alt="Page 24"></div>
+            <div class="page"><img src="pages/Portfolio_LYU_final_copy_25.jpg" alt="Page 25"></div>
+            <div class="page"><img src="pages/Portfolio_LYU_final_copy_26.jpg" alt="Page 26"></div>
+            <div class="page"><img src="pages/Portfolio_LYU_final_copy_27.jpg" alt="Page 27"></div>
+            <div class="page"><img src="pages/Portfolio_LYU_final_copy_28.jpg" alt="Page 28"></div>
+            <div class="page"><img src="pages/Portfolio_LYU_final_copy_29.jpg" alt="Page 29"></div>
+            <div class="page"><img src="pages/Portfolio_LYU_final_copy_30.jpg" alt="Page 30"></div>
+            <div class="page"><img src="pages/Portfolio_LYU_final_copy_31.jpg" alt="Page 31"></div>
+            <div class="page"><img src="pages/Portfolio_LYU_final_copy_32.jpg" alt="Page 32"></div>
+            <div class="page"><img src="pages/Portfolio_LYU_final_copy_33.jpg" alt="Page 33"></div>
+            <div class="page"><img src="pages/Portfolio_LYU_final_copy_34.jpg" alt="Page 34"></div>
+            <div class="page"><img src="pages/Portfolio_LYU_final_copy_35.jpg" alt="Page 35"></div>
+            <div class="page"><img src="pages/Portfolio_LYU_final_copy_36.jpg" alt="Page 36"></div>
+        </div>
+
+        <div class="controls">
+            <button onclick="$('#flipbook').turn('previous')">← Previous</button>
+            <div class="page-info">Page <span id="current-page">1</span> of <span id="total-pages">36</span></div>
+            <button onclick="$('#flipbook').turn('next')">Next →</button>
+        </div>
+
+        <div class="status">Keyboard arrows also work</div>
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/turn.js/3/turn.min.js"></script>
+
+    <script>
+        // 预加载所有图片
+        function preloadAllImages() {
+            const totalPages = 36;
+            let loadedCount = 0;
+            const images = [];
+
+            // 创建所有图片对象并预加载
+            for (let i = 1; i <= totalPages; i++) {
+                const pageNumber = i.toString().padStart(2, '0');
+                const imagePath = `pages/Portfolio_LYU_final_copy_${pageNumber}.jpg`;
+
+                const img = new Image();
+                img.onload = function () {
+                    loadedCount++;
+                    const progress = Math.round((loadedCount / totalPages) * 100);
+
+                    // 更新加载进度
+                    $('#loadingProgress').css('width', progress + '%');
+                    $('#loadingPercent').text(progress + '%');
+
+                    // 所有图片加载完成
+                    if (loadedCount === totalPages) {
+                        setTimeout(function () {
+                            $('#loadingOverlay').fadeOut(500, function () {
+                                $('body').addClass('loaded');
+                                initializeFlipbook();
+                            });
+                        }, 500);
+                    }
+                };
+
+                img.onerror = function () {
+                    console.error('Failed to load image:', imagePath);
+                    loadedCount++;
+                    // 即使有错误也继续
+                    if (loadedCount === totalPages) {
+                        $('#loadingOverlay').fadeOut(500, function () {
+                            $('body').addClass('loaded');
+                            initializeFlipbook();
+                        });
+                    }
+                };
+
+                img.src = imagePath;
+                images.push(img);
+            }
+        }
+
+        function initializeFlipbook() {
+            // 初始化翻页效果
+            $('#flipbook').turn({
+                width: 1000,
+                height: 707,
+                autoCenter: true,
+                duration: 800,
+                acceleration: true,
+                gradients: true,
+                elevation: 30,
+                hardware: true,
+                display: 'double',
+                // 启用缓存，提高性能
+                pages: 36,
+                when: {
+                    turning: function (e, page) {
+                        updatePageInfo();
+                    },
+                    turned: function (e, page) {
+                        updatePageInfo();
+                    }
+                }
+            });
+
+            updatePageInfo();
+        }
+
+        // 更新页面信息
+        function updatePageInfo() {
+            const currentPage = $('#flipbook').turn('page') || 1;
+            const totalPages = $('#flipbook').turn('pages') || 36;
+            $('#current-page').text(currentPage);
+            $('#total-pages').text(totalPages);
+        }
+
+        // 键盘控制
+        $(document).keydown(function (e) {
+            if (e.keyCode === 37) { // Left arrow
+                $('#flipbook').turn('previous');
+            }
+            if (e.keyCode === 39) { // Right arrow
+                $('#flipbook').turn('next');
+            }
+        });
+
+        // 页面加载完成后开始预加载
+        $(window).on('load', function () {
+            preloadAllImages();
+        });
+    </script>
+</body>
+
+</html>
